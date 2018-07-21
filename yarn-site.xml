@@ -1,0 +1,22 @@
+<configuration>
+  <property>
+    <name>yarn.nodemanager.aux-services</name>
+    <value>mapreduce_shuffle</value>
+    <description>shuffle service for MapReduce</description>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.resource-tracker.address</name>
+    <value>hadoopMaster:8025</value>
+    <description>ResourceManager for NodeManagers</description>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.scheduler.address</name>
+    <value>hadoopMaster:8030</value>
+    <description>ResourceManager for ApplicationMasters</description>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.address</name>
+    <value>hadoopMaster:8050</value>
+    <description>ResourceManager for clients to submit jobs</description>
+  </property>
+</configuration>
