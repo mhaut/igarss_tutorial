@@ -1,1 +1,1 @@
-cat /home/hadoop/igarss_tutorial/hadoop_bashrc >>  /home/hadoop/.bashrc
+cat /home/hadoop/igarss_tutorial/spark/spark_bashrc >>  /home/user/.bashrc
