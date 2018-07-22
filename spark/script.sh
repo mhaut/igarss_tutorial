@@ -1,0 +1,1 @@
+cat /home/hadoop/igarss_tutorial/hadoop_bashrc >>  /home/hadoop/.bashrc

@@ -6,3 +6,5 @@ cp /home/hadoop/igarss_tutorial/hdfs-site.xml /usr/local/hadoop/etc/hadoop/hdfs-
 cp /home/hadoop/igarss_tutorial/mapred-site.xml /usr/local/hadoop/etc/hadoop/mapred-site.xml
 cp /home/hadoop/igarss_tutorial/yarn-site.xml /usr/local/hadoop/etc/hadoop/yarn-site.xml
 cp /home/hadoop/igarss_tutorial/slaves /usr/local/hadoop/etc/hadoop/slaves
+mkdir -p /usr/local/hadoop/hadoop_data/hdfs/namenode 
+mkdir -p /usr/local/hadoop/hadoop_data/hdfs/datanode
